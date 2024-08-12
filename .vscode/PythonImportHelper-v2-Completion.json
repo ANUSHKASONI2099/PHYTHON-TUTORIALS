@@ -1,0 +1,961 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "question",
+        "importPath": "ex3",
+        "description": "ex3",
+        "isExtraImport": true,
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "importPath": "k",
+        "description": "k",
+        "isExtraImport": true,
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "importPath": "k",
+        "description": "k",
+        "isExtraImport": true,
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "importPath": "tut73",
+        "description": "tut73",
+        "isExtraImport": true,
+        "detail": "tut73",
+        "documentation": {}
+    },
+    {
+        "label": "folders",
+        "kind": 5,
+        "importPath": "Data.list",
+        "description": "Data.list",
+        "peekOfCode": "folders = os.listdir(\"data\")\nprint(folders)\nfor folder in folders:\n    print(folder)\n    print(os.listdir(f\"Data/{folder}\"))",
+        "detail": "Data.list",
+        "documentation": {}
+    },
+    {
+        "label": "blogheading",
+        "kind": 5,
+        "importPath": "b",
+        "description": "b",
+        "peekOfCode": "blogheading = \"introduction to java script\"\nprint(blogheading.capitalize())\n    #  centre string \na=\"welcome to my channel\"\nprint(len(a))\nprint((a.center(21)))\n# count string \nprint(a.count(\"anuu\"))\n# ends string \nstr = \"welcome to my channel !!!\"",
+        "detail": "b",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "b",
+        "description": "b",
+        "peekOfCode": "str = \"welcome to my channel !!!\"\nprint(str.endswith(\"!!!\"))\n# find string  return -1 if string is not found \nstr = \"he's is a good man\"\nprint(str.find(\"is\"))\n# index string \nstr = \"he's is a good man\"\nprint(str.index(\"is\"))\n# isalnum string\nstr = \"he's is a good man\"",
+        "detail": "b",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "b",
+        "description": "b",
+        "peekOfCode": "str = \"he's is a good man\"\nprint(str.find(\"is\"))\n# index string \nstr = \"he's is a good man\"\nprint(str.index(\"is\"))\n# isalnum string\nstr = \"he's is a good man\"\nprint(str.isalnum())\n#  isalpha string \nstr=\"welcome\"",
+        "detail": "b",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "b",
+        "description": "b",
+        "peekOfCode": "str = \"he's is a good man\"\nprint(str.index(\"is\"))\n# isalnum string\nstr = \"he's is a good man\"\nprint(str.isalnum())\n#  isalpha string \nstr=\"welcome\"\nprint(str.isalpha())\n# islower string \nstr=\"hey world\"",
+        "detail": "b",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "b",
+        "description": "b",
+        "peekOfCode": "str = \"he's is a good man\"\nprint(str.isalnum())\n#  isalpha string \nstr=\"welcome\"\nprint(str.isalpha())\n# islower string \nstr=\"hey world\"\nprint(str.islower())\n# isprintable string \nstr =\"heyy guys\\n\"",
+        "detail": "b",
+        "documentation": {}
+    },
+    {
+        "label": "apple",
+        "kind": 5,
+        "importPath": "c",
+        "description": "c",
+        "peekOfCode": "apple = '''he said, \nhey i am good \n\"i want to eat an apple'''\nprint(\"Hello,\" +name)\nprint (apple)\nprint(name[3])\nprint(friend[3])\nprint(anotherfriend[4])\nprint(apple[10])\n#   use for loop.......",
+        "detail": "c",
+        "documentation": {}
+    },
+    {
+        "label": "hour",
+        "kind": 5,
+        "importPath": "ex2",
+        "description": "ex2",
+        "peekOfCode": "hour = int(time.strftime('%H'))\nhour = int(input(\"Enter hour:  \"))\nprint(hour)\nif(hour>=0 and hour<=12):\n    print(\"Good morning sir!\")\nelif(hour>=12 and hour<17):\n    print(\"Good afternoon sir!\")\nelif(hour>=17 and hour<0):\n    print(\"Good night sir!\")",
+        "detail": "ex2",
+        "documentation": {}
+    },
+    {
+        "label": "hour",
+        "kind": 5,
+        "importPath": "ex2",
+        "description": "ex2",
+        "peekOfCode": "hour = int(input(\"Enter hour:  \"))\nprint(hour)\nif(hour>=0 and hour<=12):\n    print(\"Good morning sir!\")\nelif(hour>=12 and hour<17):\n    print(\"Good afternoon sir!\")\nelif(hour>=17 and hour<0):\n    print(\"Good night sir!\")",
+        "detail": "ex2",
+        "documentation": {}
+    },
+    {
+        "label": "questions",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "questions = [\n[\"which language was used to create fb?\", \"python\", \"french\" , \"javascript\" , \"php\" , \"none \", 4]\n[\"which language was used to create fb?\", \"python\", \"french\" , \"javascript\" , \"php\" , \"none \", 4]\n[\"which language was used to create fb?\", \"python\", \"french\" , \"javascript\" , \"php\" , \"none \", 4]\n]\nlevels = [ 1000 , 2000, 3000, 5000, 10000, 20000 , 40000 , 8000, 160000, 320000]\nfor i in range(0 , len(questions)):\n    question = questions[i]\n    print(f\"question for Rs. {levels[i]}\")\n    print(f\"a. {question[i][1]}                     b. {question[i][2]}\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "levels",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "levels = [ 1000 , 2000, 3000, 5000, 10000, 20000 , 40000 , 8000, 160000, 320000]\nfor i in range(0 , len(questions)):\n    question = questions[i]\n    print(f\"question for Rs. {levels[i]}\")\n    print(f\"a. {question[i][1]}                     b. {question[i][2]}\")\n    print(f\"c. {question[i][3]}                      d. {question[i][4]}\")\nreply = int(input(\"Enter your answer (1-4) \"))\nif(reply == question[-1]):\n   print(f\"Correct answer, you have won Rs. {levels[i]}\")\n   if(i == 4):",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "reply",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "reply = int(input(\"Enter your answer (1-4) \"))\nif(reply == question[-1]):\n   print(f\"Correct answer, you have won Rs. {levels[i]}\")\n   if(i == 4):\n     money = 10000\n   elif (i == 9):\n     money = 320000\nelse:\n  print(\"Wrong answer\") \nbreak",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "st",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "st = \"anushka is a good girl\"\ncoding = True\nif(coding):\n    if(len(st)>=3):\n        r1 = \"ans\"\n        r2 =\"dsj\"\n        st = st[1:] +st[0] +r2\n        print(st)\nelse:\npass",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "coding",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "coding = True\nif(coding):\n    if(len(st)>=3):\n        r1 = \"ans\"\n        r2 =\"dsj\"\n        st = st[1:] +st[0] +r2\n        print(st)\nelse:\npass",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "def check(comp,user):\n    if comp == user:\n        return 0\n    if(comp == 0 and user == 1):\n        return -1\n    if(comp == 1 and user == 2):\n        return -1\n    if(comp == 2 and user == 0 ):\n        return -1\n    return 1",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "comp",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "comp = random.randint(0,2)\nuser = int(input(\"0 for Snake , 1 for water and 2 for gun:\\n\")) \nscore = check(comp,user)\nprint(\"You:\" ,user)\nprint(\"computer:\" , comp)\nif(score == 0):\n    print(\"its a draw\")\nelif(score == -1):\n    print(\"You lose\")\nelse:",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "user = int(input(\"0 for Snake , 1 for water and 2 for gun:\\n\")) \nscore = check(comp,user)\nprint(\"You:\" ,user)\nprint(\"computer:\" , comp)\nif(score == 0):\n    print(\"its a draw\")\nelif(score == -1):\n    print(\"You lose\")\nelse:\n    print(\"You won\")",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "score = check(comp,user)\nprint(\"You:\" ,user)\nprint(\"computer:\" , comp)\nif(score == 0):\n    print(\"its a draw\")\nelif(score == -1):\n    print(\"You lose\")\nelse:\n    print(\"You won\")",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "Library",
+        "kind": 6,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "class Library:\n    def __init__(self , noBo):\n        self.noBooks = 0\n        self.books = []\n    def adBooks(self , books):\n      self.books.append(books)\n      self.noBooks = len(self.books)\n    def showInfo(self):\n       print(f\"The library has {self.noBooks} books.\")  \nl1 = Library()",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "l1 = Library()\nl1.addBook(\"harry potter1\")\nl1.addBook(\"harry potter2\")\nl1.showInfo()",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "f",
+        "description": "f",
+        "peekOfCode": "i = 0\nwhile True:\n    print",
+        "detail": "f",
+        "documentation": {}
+    },
+    {
+        "label": "tup",
+        "kind": 5,
+        "importPath": "g",
+        "description": "g",
+        "peekOfCode": "tup = (1,8,9)\nprint(type(tup), tup)\nprint(tup[1])\n# print(tup[3])\nif 8 in tup:\n    print(\"yes\")\ntup2 = tup[1:3]\nprint(tup2)",
+        "detail": "g",
+        "documentation": {}
+    },
+    {
+        "label": "tup2",
+        "kind": 5,
+        "importPath": "g",
+        "description": "g",
+        "peekOfCode": "tup2 = tup[1:3]\nprint(tup2)",
+        "detail": "g",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 2,
+        "importPath": "h",
+        "description": "h",
+        "peekOfCode": "def square(n):\n    '''Takes in a number n , returns the square of n'''\n    print(n**2)\nsquare(5)\nprint(square.__doc__)",
+        "detail": "h",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "a = {\"tokoyo\" ,\"mumbai\",\"delhi\",\"agra\"}\nb = {\"allahabad\",\"lucknow\",\"delhi\",\"tokoyo\"}\nprint(a.isdisjoint(b))\n# superset \na = {\"tokoyo\" ,\"mumbai\",\"delhi\",\"agra\"}\nb = {\"allahabad\",\"lucknow\",\"delhi\",\"tokoyo\"}\nc = {\"delhi\",\"allahabad\",\"lucknow\"}\nprint(a.issuperset(b))\nprint(b.issuperset(b))\n# if you want to add single items in set use \"add\"\\",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "b = {\"allahabad\",\"lucknow\",\"delhi\",\"tokoyo\"}\nprint(a.isdisjoint(b))\n# superset \na = {\"tokoyo\" ,\"mumbai\",\"delhi\",\"agra\"}\nb = {\"allahabad\",\"lucknow\",\"delhi\",\"tokoyo\"}\nc = {\"delhi\",\"allahabad\",\"lucknow\"}\nprint(a.issuperset(b))\nprint(b.issuperset(b))\n# if you want to add single items in set use \"add\"\\\na = {\"annu\",\"aashi\"}",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "a = {\"tokoyo\" ,\"mumbai\",\"delhi\",\"agra\"}\nb = {\"allahabad\",\"lucknow\",\"delhi\",\"tokoyo\"}\nc = {\"delhi\",\"allahabad\",\"lucknow\"}\nprint(a.issuperset(b))\nprint(b.issuperset(b))\n# if you want to add single items in set use \"add\"\\\na = {\"annu\",\"aashi\"}\na.add(\"aadi\")\nprint(a)\n# if you want to add more than one item use \"update\" ",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "b = {\"allahabad\",\"lucknow\",\"delhi\",\"tokoyo\"}\nc = {\"delhi\",\"allahabad\",\"lucknow\"}\nprint(a.issuperset(b))\nprint(b.issuperset(b))\n# if you want to add single items in set use \"add\"\\\na = {\"annu\",\"aashi\"}\na.add(\"aadi\")\nprint(a)\n# if you want to add more than one item use \"update\" \n# a = {\"annu\",\"aashi\"}",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "c = {\"delhi\",\"allahabad\",\"lucknow\"}\nprint(a.issuperset(b))\nprint(b.issuperset(b))\n# if you want to add single items in set use \"add\"\\\na = {\"annu\",\"aashi\"}\na.add(\"aadi\")\nprint(a)\n# if you want to add more than one item use \"update\" \n# a = {\"annu\",\"aashi\"}\n# a.update(\"aadi\",\"aaradhya\")",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "a = {\"annu\",\"aashi\"}\na.add(\"aadi\")\nprint(a)\n# if you want to add more than one item use \"update\" \n# a = {\"annu\",\"aashi\"}\n# a.update(\"aadi\",\"aaradhya\")\n# print(a)\n# if you want to remove something on your items use \"remove\" \na = {\"mango\",\"apple\",\"pineapple\"}\na.remove(\"apple\")",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "a = {\"mango\",\"apple\",\"pineapple\"}\na.remove(\"apple\")\nprint(a)\n# 'the main deference between remove and discard is that ,if we try to delete an item which is not present in set' remove raise an error,whereas discard does not raise any error\n# pop method - this method removes the last item of the set but the catch is that we don't know which item gets popped\na = {\"arti\",\"kanish\",\"radha\",\"annu\"}\nb = a.pop()\nprint(a)\nprint(b)\n# if you want to delete something in your item use \"del\" keyword",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "a = {\"arti\",\"kanish\",\"radha\",\"annu\"}\nb = a.pop()\nprint(a)\nprint(b)\n# if you want to delete something in your item use \"del\" keyword\na = {\"arti\",\"kanish\",\"radha\",\"annu\"}\ndel a\nprint(a)\n# if we want to does'nt delete entire set if we want to delete items present in set use \"clear\"\na = {\"arti\",\"kanish\",\"radha\",\"annu\"}",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "b = a.pop()\nprint(a)\nprint(b)\n# if you want to delete something in your item use \"del\" keyword\na = {\"arti\",\"kanish\",\"radha\",\"annu\"}\ndel a\nprint(a)\n# if we want to does'nt delete entire set if we want to delete items present in set use \"clear\"\na = {\"arti\",\"kanish\",\"radha\",\"annu\"}\na.clear()",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "a = {\"arti\",\"kanish\",\"radha\",\"annu\"}\ndel a\nprint(a)\n# if we want to does'nt delete entire set if we want to delete items present in set use \"clear\"\na = {\"arti\",\"kanish\",\"radha\",\"annu\"}\na.clear()\nprint(a)",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "j",
+        "description": "j",
+        "peekOfCode": "a = {\"arti\",\"kanish\",\"radha\",\"annu\"}\na.clear()\nprint(a)",
+        "detail": "j",
+        "documentation": {}
+    },
+    {
+        "label": "dic",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "dic = {\n    # \"anushka\":\"Human being\",\n    # \"spoon\":\"object\"\n    321: \"annu\"\n    # there 321 is key and annu is value \n}\nprint(dic[321])\ninfo = {'name':'anushka','age' :'18', 'elligible':'true'}\n# print(info)\n# # error thruogh krega ",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "info = {'name':'anushka','age' :'18', 'elligible':'true'}\n# print(info)\n# # error thruogh krega \n# print(info['name'])\n# # error through nhi krega \n# print(info.get('name'))\n# print(info.keys())\n# for key in info.keys():\n#     print(info[key])\n#     print(info.values())",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "a = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.update(b)\nprint(a)\n# if you want to clear dictionar use \"clear \"\na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.clear()\nprint(a)\n# if you want remove one key value pair use \"pop\"",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "b = {212: 14, 230: 71}\na.update(b)\nprint(a)\n# if you want to clear dictionar use \"clear \"\na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.clear()\nprint(a)\n# if you want remove one key value pair use \"pop\"\na = {100: 14, 160: 61, 690: 45, 479: 78}",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "a = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.clear()\nprint(a)\n# if you want remove one key value pair use \"pop\"\na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.pop(100)\nprint(a)\n# if you want delete last key value pairs use \"pop-item\" ",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "b = {212: 14, 230: 71}\na.clear()\nprint(a)\n# if you want remove one key value pair use \"pop\"\na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.pop(100)\nprint(a)\n# if you want delete last key value pairs use \"pop-item\" \na = {100: 14, 160: 61, 690: 45, 479: 78}",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "a = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.pop(100)\nprint(a)\n# if you want delete last key value pairs use \"pop-item\" \na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.popitem()\nprint(a)\n# del use for delete dictionary ",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "b = {212: 14, 230: 71}\na.pop(100)\nprint(a)\n# if you want delete last key value pairs use \"pop-item\" \na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.popitem()\nprint(a)\n# del use for delete dictionary \na = {100: 14, 160: 61, 690: 45, 479: 78}",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "a = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\na.popitem()\nprint(a)\n# del use for delete dictionary \na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\ndel a()\nprint(a)",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "b = {212: 14, 230: 71}\na.popitem()\nprint(a)\n# del use for delete dictionary \na = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\ndel a()\nprint(a)",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "a = {100: 14, 160: 61, 690: 45, 479: 78}\nb = {212: 14, 230: 71}\ndel a()\nprint(a)",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "k",
+        "description": "k",
+        "peekOfCode": "b = {212: 14, 230: 71}\ndel a()\nprint(a)",
+        "detail": "k",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "l",
+        "description": "l",
+        "peekOfCode": "a = input(\"Enter the number:\")\nprint(f\"muliplication table of {a} is : \")\ntry:\n  for i in range(1, 11):\n    print(f\"{int(a)} x {i} = {int(a)*i}\")\nexcept Exception as e: \n    print(\"Sorry some error occured\")\ntry:\n   num = int(input(\"enter an integer: \"))\n   a = [6,7]",
+        "detail": "l",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "m",
+        "description": "m",
+        "peekOfCode": "a = int(input(\"enter any value between 5 and 9\"))\nif(a<5 or a>9):\n    raise ValueError(\"value should be between 5 and 9\")\n# coustom Exception",
+        "detail": "m",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "n",
+        "description": "n",
+        "peekOfCode": "marks = [12, 23,5,78,94,51]\n# index = 0\n# for index, mark in enumerate(marks):  \nfor index, mark in enumerate(marks , start = 1):\n    print(mark)\n    if(index == 3):\n        print(\"anushka, awesome!\")\n        index +=1",
+        "detail": "n",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "r",
+        "description": "r",
+        "peekOfCode": "def my_function():\n    global x\n    x = 4\n    y = 5 #local variable \n    print(y)\nmy_function()\nprint(x)\nprint(y) # this will cause an error becouse  y is a local variable  and is not accesible outsideof the function",
+        "detail": "r",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "r",
+        "description": "r",
+        "peekOfCode": "x = 10 # global variable\ndef my_function():\n    global x\n    x = 4\n    y = 5 #local variable \n    print(y)\nmy_function()\nprint(x)\nprint(y) # this will cause an error becouse  y is a local variable  and is not accesible outsideof the function",
+        "detail": "r",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "s",
+        "description": "s",
+        "peekOfCode": "f = open('myfile.txt', 'w')\nlines = ['line 1\\n', 'line 2\\n', 'line 3\\n']\nf.writelines(lines)\nf.close",
+        "detail": "s",
+        "documentation": {}
+    },
+    {
+        "label": "lines",
+        "kind": 5,
+        "importPath": "s",
+        "description": "s",
+        "peekOfCode": "lines = ['line 1\\n', 'line 2\\n', 'line 3\\n']\nf.writelines(lines)\nf.close",
+        "detail": "s",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "tut69",
+        "description": "tut69",
+        "peekOfCode": "class Employee:\n    company = \"Apple\"\n    def show(self):\n        print(f\"The name is {self.name} and company is  {self.company}\")\n@classmethod\ndef changeCompany(cls , newComapny):\n    cls.company = newComapny\ne1 = Employee()\ne1.name  = \"anushka\"\ne1.show()",
+        "detail": "tut69",
+        "documentation": {}
+    },
+    {
+        "label": "changeCompany",
+        "kind": 2,
+        "importPath": "tut69",
+        "description": "tut69",
+        "peekOfCode": "def changeCompany(cls , newComapny):\n    cls.company = newComapny\ne1 = Employee()\ne1.name  = \"anushka\"\ne1.show()\n# e1.changeCompany(\"tesla\")\n# e1.show()\n# print(Employee.company)",
+        "detail": "tut69",
+        "documentation": {}
+    },
+    {
+        "label": "e1",
+        "kind": 5,
+        "importPath": "tut69",
+        "description": "tut69",
+        "peekOfCode": "e1 = Employee()\ne1.name  = \"anushka\"\ne1.show()\n# e1.changeCompany(\"tesla\")\n# e1.show()\n# print(Employee.company)",
+        "detail": "tut69",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "tut70",
+        "description": "tut70",
+        "peekOfCode": "class Employee:\n    def __init__(self ,):\n        self.name = name",
+        "detail": "tut70",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "tut71 ",
+        "description": "tut71 ",
+        "peekOfCode": "class Person:\n    def __init__(self , name , age):\n        self.name = name\n        self.age = age\np = Person(\"john\" , 30)\nprint(p.__dict__)\n# Help metod - \nclass Person:\n    def __init__(self , name , age):\n        self.name = name",
+        "detail": "tut71 ",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "tut71 ",
+        "description": "tut71 ",
+        "peekOfCode": "class Person:\n    def __init__(self , name , age):\n        self.name = name\n        self.age = age\np = Person(\"john\" , 30)\nprint(help(Person))",
+        "detail": "tut71 ",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "tut71 ",
+        "description": "tut71 ",
+        "peekOfCode": "x = (1,2,3)\nprint(dir(x))\nprint(x.__add__)\n# dict() mthods attributes jo use hue a hai as a dictionary ajayenge.\nclass Person:\n    def __init__(self , name , age):\n        self.name = name\n        self.age = age\np = Person(\"john\" , 30)\nprint(p.__dict__)",
+        "detail": "tut71 ",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "tut71 ",
+        "description": "tut71 ",
+        "peekOfCode": "p = Person(\"john\" , 30)\nprint(p.__dict__)\n# Help metod - \nclass Person:\n    def __init__(self , name , age):\n        self.name = name\n        self.age = age\np = Person(\"john\" , 30)\nprint(help(Person))",
+        "detail": "tut71 ",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "tut71 ",
+        "description": "tut71 ",
+        "peekOfCode": "p = Person(\"john\" , 30)\nprint(help(Person))",
+        "detail": "tut71 ",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "tut72",
+        "description": "tut72",
+        "peekOfCode": "class Employee:\n    def __init__(self , name , id ,):\n        self.name = name \n        self.id = id \nclass Programmer(Employee):\n    def __init_(self ,  name , id , lang):\n        self.name = name\n        super().__init__(name , id)   \n        self.lang = lang     \naditya = Employee(\"Aditya\" , 429)",
+        "detail": "tut72",
+        "documentation": {}
+    },
+    {
+        "label": "Programmer",
+        "kind": 6,
+        "importPath": "tut72",
+        "description": "tut72",
+        "peekOfCode": "class Programmer(Employee):\n    def __init_(self ,  name , id , lang):\n        self.name = name\n        super().__init__(name , id)   \n        self.lang = lang     \naditya = Employee(\"Aditya\" , 429)\nanushka = Programmer(\"Anushka\" , \"8876\" , \"Python\")\nprint(anushka.name)\nprint(anushka.id)\nprint(anushka.lang)",
+        "detail": "tut72",
+        "documentation": {}
+    },
+    {
+        "label": "aditya",
+        "kind": 5,
+        "importPath": "tut72",
+        "description": "tut72",
+        "peekOfCode": "aditya = Employee(\"Aditya\" , 429)\nanushka = Programmer(\"Anushka\" , \"8876\" , \"Python\")\nprint(anushka.name)\nprint(anushka.id)\nprint(anushka.lang)",
+        "detail": "tut72",
+        "documentation": {}
+    },
+    {
+        "label": "anushka",
+        "kind": 5,
+        "importPath": "tut72",
+        "description": "tut72",
+        "peekOfCode": "anushka = Programmer(\"Anushka\" , \"8876\" , \"Python\")\nprint(anushka.name)\nprint(anushka.id)\nprint(anushka.lang)",
+        "detail": "tut72",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "tut73",
+        "description": "tut73",
+        "peekOfCode": "class Employee:\n    def __init(self , name):\n        self.name = name\n    def __len__(self):\n        i = 0\n        for c in self.name:\n            i = i+1\n        return i\n    def __str__(self):\n        return f\"The name of the employee is {self.name}\"",
+        "detail": "tut73",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "tut73i",
+        "description": "tut73i",
+        "peekOfCode": "e = Employee(\"Aditya\")\nprint(str(e))\ne()",
+        "detail": "tut73i",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "tut74",
+        "description": "tut74",
+        "peekOfCode": "class Shape:\n    def __init__(self ,x ,y ):\n        self.x = x\n        self.y = y\n    def area(self):\n        return self.x * self.y\nrec = Shape(6,7)\nprint(rec.area())\nclass Circle(Shape):\n    def __init__(self , radius):",
+        "detail": "tut74",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "tut74",
+        "description": "tut74",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self , radius):\n        self.radius = radius\n        super().__init__(radius , radius)\n    def area(self):\n        return 3.14 * self.radius * self.radius\nc = Circle(9)\nprint(c.area())",
+        "detail": "tut74",
+        "documentation": {}
+    },
+    {
+        "label": "rec",
+        "kind": 5,
+        "importPath": "tut74",
+        "description": "tut74",
+        "peekOfCode": "rec = Shape(6,7)\nprint(rec.area())\nclass Circle(Shape):\n    def __init__(self , radius):\n        self.radius = radius\n        super().__init__(radius , radius)\n    def area(self):\n        return 3.14 * self.radius * self.radius\nc = Circle(9)\nprint(c.area())",
+        "detail": "tut74",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "tut74",
+        "description": "tut74",
+        "peekOfCode": "c = Circle(9)\nprint(c.area())",
+        "detail": "tut74",
+        "documentation": {}
+    },
+    {
+        "label": "Vector",
+        "kind": 6,
+        "importPath": "tut77",
+        "description": "tut77",
+        "peekOfCode": "class Vector:\n    def __init__(self , i , j , k):\n        self.i = i\n        self.j = j\n        self.k = k\n    def __str__(self):\n        return f\"{self.i}i +{self.j}j + {self.k}k\"\n    def __add__(self , x):\n        return Vector(self.i + x.i, self.j + x.j, self.k + x.k)\nv1 = Vector(4,5,9)",
+        "detail": "tut77",
+        "documentation": {}
+    },
+    {
+        "label": "v1",
+        "kind": 5,
+        "importPath": "tut77",
+        "description": "tut77",
+        "peekOfCode": "v1 = Vector(4,5,9)\nprint(v1)\nv2 = Vector(2,4,6)\nprint(v2)\nprint(v1 + v2)\nprint(type(v1 + v2))",
+        "detail": "tut77",
+        "documentation": {}
+    },
+    {
+        "label": "v2",
+        "kind": 5,
+        "importPath": "tut77",
+        "description": "tut77",
+        "peekOfCode": "v2 = Vector(2,4,6)\nprint(v2)\nprint(v1 + v2)\nprint(type(v1 + v2))",
+        "detail": "tut77",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "u",
+        "description": "u",
+        "peekOfCode": "a = None\nb = None\nprint(a is b)\nprint(a==b)",
+        "detail": "u",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "u",
+        "description": "u",
+        "peekOfCode": "b = None\nprint(a is b)\nprint(a==b)",
+        "detail": "u",
+        "documentation": {}
+    },
+    {
+        "label": "sales1",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "sales1 = 6000\nprfit1 = 2000\nad1 = 1000\nsales2 = 9000\nprfit2 = 4000\nad2 = 3000\nsales3 = 6000\nprfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "prfit1",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "prfit1 = 2000\nad1 = 1000\nsales2 = 9000\nprfit2 = 4000\nad2 = 3000\nsales3 = 6000\nprfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "ad1",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "ad1 = 1000\nsales2 = 9000\nprfit2 = 4000\nad2 = 3000\nsales3 = 6000\nprfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]\n# aditya --> adi ki info vala form --> object[entity]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "sales2",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "sales2 = 9000\nprfit2 = 4000\nad2 = 3000\nsales3 = 6000\nprfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]\n# aditya --> adi ki info vala form --> object[entity]\n# aditya.changeName[\"adi\"]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "prfit2",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "prfit2 = 4000\nad2 = 3000\nsales3 = 6000\nprfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]\n# aditya --> adi ki info vala form --> object[entity]\n# aditya.changeName[\"adi\"]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "ad2",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "ad2 = 3000\nsales3 = 6000\nprfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]\n# aditya --> adi ki info vala form --> object[entity]\n# aditya.changeName[\"adi\"]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "sales3",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "sales3 = 6000\nprfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]\n# aditya --> adi ki info vala form --> object[entity]\n# aditya.changeName[\"adi\"]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "prfit3",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "prfit3 = 1000\nad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]\n# aditya --> adi ki info vala form --> object[entity]\n# aditya.changeName[\"adi\"]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "ad3",
+        "kind": 5,
+        "importPath": "v",
+        "description": "v",
+        "peekOfCode": "ad3 = 300\n# RilwayForm ---> class --> [blueprint]\n# Anushka --> anu ki info --> object[entity]\n# aditya --> adi ki info vala form --> object[entity]\n# aditya.changeName[\"adi\"]",
+        "detail": "v",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "w",
+        "description": "w",
+        "peekOfCode": "class Person:\n    def __init__(self , name , occ):\n        print(\"Hey I am a person\")\n        self.name = name \n        self.occ = occ\n    # name = \"adi\"\n    # occ = \"developer\"\n    def info(self):\n        print(f\"{self.name} is a {self.occ} \" )\na = Person(\"Anushka\" , \"Devloper\")",
+        "detail": "w",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "w",
+        "description": "w",
+        "peekOfCode": "a = Person(\"Anushka\" , \"Devloper\")\nb = (\"Aditya\" , \"HR\")\na.info()\nb.info()",
+        "detail": "w",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "w",
+        "description": "w",
+        "peekOfCode": "b = (\"Aditya\" , \"HR\")\na.info()\nb.info()",
+        "detail": "w",
+        "documentation": {}
+    },
+    {
+        "label": "Myclass",
+        "kind": 6,
+        "importPath": "x",
+        "description": "x",
+        "peekOfCode": "class Myclass:\n    def __init__(self,value):\n        self._value = value\n    def show(self):\n            print(f\"value is {self._value}\")\n    @property\n    def ten_value(self):\n            return 10* self._value\n    @ten_value.setter\n    def ten_value(self , new_value):",
+        "detail": "x",
+        "documentation": {}
+    },
+    {
+        "label": "obj",
+        "kind": 5,
+        "importPath": "x",
+        "description": "x",
+        "peekOfCode": "obj = Myclass(10)\nobj.ten_value = 67\nprint(obj.ten_value)\nobj.show()",
+        "detail": "x",
+        "documentation": {}
+    },
+    {
+        "label": "obj.ten_value",
+        "kind": 5,
+        "importPath": "x",
+        "description": "x",
+        "peekOfCode": "obj.ten_value = 67\nprint(obj.ten_value)\nobj.show()",
+        "detail": "x",
+        "documentation": {}
+    },
+    {
+        "label": "Mat",
+        "kind": 6,
+        "importPath": "y",
+        "description": "y",
+        "peekOfCode": "class Math :\n    def __init__(self , num):\n        self.num = num\n    def addtonum(self , n):\n        self.num = self.num + n\n    @staticmethod\n    def add(a, b):\n        return a+b\na = Math(5)\nprint(a.num)",
+        "detail": "y",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "y",
+        "description": "y",
+        "peekOfCode": "a = Math(5)\nprint(a.num)\na.addtonum(6)\nprint(a.num)\nprint(a.add(7,5)) # alg hai ye method",
+        "detail": "y",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "z",
+        "description": "z",
+        "peekOfCode": "class Employee:\n    companyName  = \"TATA\" #class variable\n    noofEmployee = 0\n    def __init__(self , name ):\n        self.name = name \n        self.raiseamount = 0.2 #instance variable\n        Employee.noofEmployee +=1\n    def showDetails(self):\n        print(f\"The name of the employee is {self.name} and the raise amount {self.noofEmployee}  sized  in {self.companyName} is {self.raiseamount}\")\nemp1 = Employee(\"anu\")",
+        "detail": "z",
+        "documentation": {}
+    },
+    {
+        "label": "emp1",
+        "kind": 5,
+        "importPath": "z",
+        "description": "z",
+        "peekOfCode": "emp1 = Employee(\"anu\")\nemp1.raiseamount = 0.8\nemp1.companyName = \"Apple\"\nemp1.showDetails() #second method - Employee.showDetails(emp1)\nemp2 =Employee(\"Adi\")\nemp2.companyName = \"Relance\" \nemp2.showDetails()\n# agr instance variable denge to vhi show krega otherwise class variable show krega",
+        "detail": "z",
+        "documentation": {}
+    },
+    {
+        "label": "emp1.raiseamount",
+        "kind": 5,
+        "importPath": "z",
+        "description": "z",
+        "peekOfCode": "emp1.raiseamount = 0.8\nemp1.companyName = \"Apple\"\nemp1.showDetails() #second method - Employee.showDetails(emp1)\nemp2 =Employee(\"Adi\")\nemp2.companyName = \"Relance\" \nemp2.showDetails()\n# agr instance variable denge to vhi show krega otherwise class variable show krega",
+        "detail": "z",
+        "documentation": {}
+    },
+    {
+        "label": "emp1.companyName",
+        "kind": 5,
+        "importPath": "z",
+        "description": "z",
+        "peekOfCode": "emp1.companyName = \"Apple\"\nemp1.showDetails() #second method - Employee.showDetails(emp1)\nemp2 =Employee(\"Adi\")\nemp2.companyName = \"Relance\" \nemp2.showDetails()\n# agr instance variable denge to vhi show krega otherwise class variable show krega",
+        "detail": "z",
+        "documentation": {}
+    },
+    {
+        "label": "emp2.companyName",
+        "kind": 5,
+        "importPath": "z",
+        "description": "z",
+        "peekOfCode": "emp2.companyName = \"Relance\" \nemp2.showDetails()\n# agr instance variable denge to vhi show krega otherwise class variable show krega",
+        "detail": "z",
+        "documentation": {}
+    }
+]
